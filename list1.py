@@ -1,4 +1,5 @@
 names = ["kamal", "jagath", "sunil", "ajith", "nimal"]
 
-for name in names:
-    print(name)
+for index in range(0,len(names)):
+    print(names[index],'is stored at index', index)
+
