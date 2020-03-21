@@ -1,1 +1,2 @@
-print('Hello', 'World', '!')
+print('Hello', 'World', '!' , end='\n')
+print('Hello', 'World', '!' , sep='')
