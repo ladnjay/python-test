@@ -1,5 +1,4 @@
 numberIn = input('enter a number: ')
-prime = True
 number = int(numberIn)
 
 for test in range(2,number):
@@ -9,7 +8,5 @@ for test in range(2,number):
         prime = False
         break
 
-if prime:
-    print(number, 'is a prime number!')
 else:
-    print(number, 'is not a prime number!')
+    print(number, 'is a prime number!')
